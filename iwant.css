@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 html, body {
     margin: 20;
     padding: 0;
+}
+
+.h-index a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .nav ul {
@@ -23,8 +30,25 @@ html, body {
     display: none;
 }
 
+.nav a {
+    display: inline-block;
+    padding: 0.4em;
+    color: black;
+    text-decoration: none;
+}
+
+.edu-nav a {
+    display: inline-block;
+    color: rgb(32, 34, 155);
+    text-decoration: none;
+}
+
 .index-section {
     background-image: url("Image/TK.jpg");
     background-blend-mode: multiply;
     background-size: cover;
 }
+
+/* .btn {
+    
+} */
